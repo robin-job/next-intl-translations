@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2018", "dom", "esnext.intl"],
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build/esm",
+    "declaration": true,
+    "declarationDir": "build/types",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
