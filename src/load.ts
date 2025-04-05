@@ -6,17 +6,17 @@ import { getTranslations } from './get-translations';
 import { writeMessages } from './write';
 
 export const loadTranslations = async ({
-  extractionPath,
-  outputPath,
+  extractionPath = './src',
+  outputPath = './messages',
   currentLocale,
   locales,
-  enableTypeCheck = false,
+  enableTypeCheck = true,
   loaderFileScript,
   translationsFileName,
-  deepTranslationComparison,
+  deepTranslationComparison = false,
 }: {
-  extractionPath: string;
-  outputPath: string;
+  extractionPath?: string;
+  outputPath?: string;
   currentLocale: string;
   locales: string[];
   enableTypeCheck?: boolean;

@@ -1,0 +1,1 @@
+[README in English](https://github.com/robin-job/next-intl-translations/blob/main/README.md) | [README in Russian](https://github.com/robin-job/next-intl-translations/blob/main/README_ru.md)
